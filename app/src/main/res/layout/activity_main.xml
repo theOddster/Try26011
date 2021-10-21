@@ -64,6 +64,7 @@
             android:fontFamily="@font/allerta"
             android:text="Login"
             android:textAllCaps="false"
+            android:textColor="#FFFFFF"
             android:textSize="20sp" />
 
         <Button
@@ -74,7 +75,8 @@
             android:fontFamily="@font/allerta"
             android:lineSpacingExtra="16sp"
             android:text="Register"
-            android:textAllCaps="false" />
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF" />
 
     </LinearLayout>
 
