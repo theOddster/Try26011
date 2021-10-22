@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#C8D0FF"
-    android:backgroundTint="#C8D0FF"
+    android:background="#171717"
+    android:backgroundTint="#171717"
     tools:context=".MainActivity">
 
     <LinearLayout
@@ -23,11 +23,13 @@
             android:id="@+id/textView2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:fontFamily="@font/allan"
-            android:text="WELCOME"
+            android:fontFamily="@font/chango"
+            android:text="C.C.J."
             android:textAlignment="center"
-            android:textColor="#000000"
-            android:textSize="60sp"
+            android:textAllCaps="false"
+            android:textColor="#FE007E"
+            android:textSize="48sp"
+            android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
@@ -39,20 +41,24 @@
             app:srcCompat="@drawable/logo_penk_black" />
 
         <EditText
+            android:id="@+id/username"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:backgroundTint="#FFFFFF"
+            android:backgroundTint="@color/Pink1"
             android:fontFamily="@font/allerta"
             android:hint="username"
+            android:textColorHint="@color/Pink1"
             android:textAlignment="textStart"
             android:textColor="#F4F4F4" />
 
         <EditText
+            android:id="@+id/password"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:backgroundTint="#FFFFFF"
+            android:backgroundTint="@color/Pink1"
             android:fontFamily="@font/allerta"
             android:hint="password"
+            android:textColorHint="@color/Pink1"
             android:textAlignment="textStart"
             android:textColor="#F4F4F4" />
 
@@ -60,7 +66,7 @@
             android:id="@+id/instruction"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:backgroundTint="#220F8E"
+            android:backgroundTint="#FC3EAA"
             android:fontFamily="@font/allerta"
             android:text="Login"
             android:textAllCaps="false"
@@ -71,12 +77,14 @@
             android:id="@+id/signup"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:backgroundTint="#132168"
+            android:backgroundTint="#FF69CE"
             android:fontFamily="@font/allerta"
             android:lineSpacingExtra="16sp"
             android:text="Register"
             android:textAllCaps="false"
             android:textColor="#FFFFFF" />
+
+
 
     </LinearLayout>
 
