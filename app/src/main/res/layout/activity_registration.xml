@@ -25,6 +25,133 @@
             android:layout_height="60dp"
             app:srcCompat="@drawable/logo_penk_black" />
 
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Account Details"
+            android:textAlignment="viewStart"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/usernameR"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/Pink1"
+            android:fontFamily="@font/allerta"
+            android:hint="Username"
+            android:textAlignment="center"
+            android:textColor="#F4F4F4"
+            android:textColorHint="@color/white"
+            />
+        <EditText
+            android:id="@+id/passwordR"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/Pink1"
+            android:fontFamily="@font/allerta"
+            android:hint="Password"
+            android:textAlignment="center"
+            android:textColor="#F4F4F4"
+            android:textColorHint="@color/white"
+            android:layout_marginTop="10dp"
+            />
+        <EditText
+            android:id="@+id/confirmPass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/Pink1"
+            android:fontFamily="@font/allerta"
+            android:hint="Confirm Password"
+            android:textAlignment="center"
+            android:textColor="#F4F4F4"
+            android:textColorHint="@color/white"
+            android:layout_marginTop="10dp"
+            />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Personal Information"
+            android:textAlignment="viewStart"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/firstName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/Pink1"
+            android:fontFamily="@font/allerta"
+            android:hint="First Name"
+            android:textAlignment="center"
+            android:textColor="#F4F4F4"
+            android:textColorHint="@color/white"
+            />
+        <EditText
+            android:id="@+id/lastName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/Pink1"
+            android:fontFamily="@font/allerta"
+            android:hint="Last Name"
+            android:textAlignment="center"
+            android:textColor="#F4F4F4"
+            android:textColorHint="@color/white"
+            android:layout_marginTop="10dp"
+            />
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/Pink1"
+            android:fontFamily="@font/allerta"
+            android:hint="Email Address"
+            android:textAlignment="center"
+            android:textColor="#F4F4F4"
+            android:textColorHint="@color/white"
+            android:layout_marginTop="10dp"
+            />
+        <EditText
+            android:id="@+id/address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/Pink1"
+            android:fontFamily="@font/allerta"
+            android:hint="Home Address"
+            android:textAlignment="center"
+            android:textColor="#F4F4F4"
+            android:textColorHint="@color/white"
+            android:layout_marginTop="10dp"
+            />
+        <EditText
+            android:id="@+id/number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/Pink1"
+            android:fontFamily="@font/allerta"
+            android:hint="Contact Number"
+            android:textAlignment="center"
+            android:textColor="#F4F4F4"
+            android:textColorHint="@color/white"
+            android:layout_marginTop="10dp"
+            />
+
+        <Button
+            android:id="@+id/register"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#FC3EAA"
+            android:fontFamily="@font/allerta"
+            android:text="Signup"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
+
 
     </LinearLayout>
 

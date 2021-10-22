@@ -41,7 +41,7 @@
             app:srcCompat="@drawable/logo_penk_black" />
 
         <EditText
-            android:id="@+id/username"
+            android:id="@+id/usernameL"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:backgroundTint="@color/Pink1"
@@ -53,7 +53,7 @@
             />
 
         <EditText
-            android:id="@+id/password"
+            android:id="@+id/passwordL"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:backgroundTint="@color/Pink1"
@@ -75,7 +75,7 @@
             android:textSize="20sp" />
 
         <TextView
-            android:id="@+id/textView4"
+            android:id="@+id/textView1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="No account yet? Register now!"
