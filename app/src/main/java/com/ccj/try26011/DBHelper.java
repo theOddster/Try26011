@@ -4,7 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 
 
-public class instruction extends AppCompatActivity {
+public class DBHelper extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
