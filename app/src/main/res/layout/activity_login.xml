@@ -79,7 +79,7 @@
             android:id="@+id/textView1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="No account yet? Register now!"
+            android:text="panget mo jeric!"
             android:layout_marginTop="20dp"
             android:textAlignment="center"
             android:textColor="#FFFFFF" />
