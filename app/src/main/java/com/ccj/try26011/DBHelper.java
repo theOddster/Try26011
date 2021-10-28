@@ -28,8 +28,9 @@ public class DBHelper extends SQLiteOpenHelper {
     }
 
     //database input from registration
-    public Boolean insertData(String u, String p, String l, String f, String e, String a, String cn){
+    public Boolean insertData(String u, String p, String f, String l,  String e, String a, String cn){
         SQLiteDatabase AccountDB = this.getWritableDatabase();
+
         ContentValues contentVal = new ContentValues();
         contentVal.put("username", u);
         contentVal.put("password", p);
@@ -38,6 +39,7 @@ public class DBHelper extends SQLiteOpenHelper {
         contentVal.put("email", e);
         contentVal.put("address", a);
         contentVal.put("contactNumber", cn);
+
         long result = AccountDB.insert("users", null, contentVal);
         if (result==-1) return false;
         else return true;
