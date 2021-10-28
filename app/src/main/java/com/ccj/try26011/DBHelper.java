@@ -19,7 +19,7 @@ public class DBHelper extends SQLiteOpenHelper {
 
     @Override
     public void onCreate(SQLiteDatabase AccountDB) {
-        AccountDB.execSQL("CREATE TABLE users(username TEXT primary key, password TEXT)");
+        AccountDB.execSQL("CREATE TABLE users(username TEXT primary key, password TEXT, lastName TEXT, firstName TEXT, lastName TEXT, email TEXT, address TEXT, contactNumber TEXT)");
     }
 
     @Override
@@ -28,16 +28,16 @@ public class DBHelper extends SQLiteOpenHelper {
     }
 
     //database input from registration
-    public Boolean insertData(String u, String p, String l, String f, String e, String a, String n){
+    public Boolean insertData(String u, String p, String l, String f, String e, String a, String cn){
         SQLiteDatabase AccountDB = this.getWritableDatabase();
         ContentValues contentVal = new ContentValues();
         contentVal.put("username", u);
         contentVal.put("password", p);
-        contentVal.put("lastName", l);
         contentVal.put("firstName", f);
+        contentVal.put("lastName", l);
         contentVal.put("email", e);
         contentVal.put("address", a);
-        contentVal.put("number", n);
+        contentVal.put("contactNumber", cn);
         long result = AccountDB.insert("users", null, contentVal);
         if (result==-1) return false;
         else return true;

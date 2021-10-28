@@ -142,7 +142,7 @@
                 android:textColorHint="@color/white" />
 
             <EditText
-                android:id="@+id/number"
+                android:id="@+id/Cnumber"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
