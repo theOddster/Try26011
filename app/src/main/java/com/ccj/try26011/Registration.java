@@ -42,8 +42,8 @@ public class Registration extends AppCompatActivity {
                 String f=firstName.getText().toString();
                 String l=lastName.getText().toString();
                 String e=email.getText().toString();
-                String cn=contactNumber.getText().toString();
                 String a=Address.getText().toString();
+                String cn=contactNumber.getText().toString();
 
                 if (u.contentEquals("") || p.contentEquals("") || pc.contentEquals("")|| f.contentEquals("") || l.contentEquals("") || e.contentEquals("") || a.contentEquals("") || cn.contentEquals("") )
                     Toast.makeText(Registration.this,"Please enter all information.",Toast.LENGTH_LONG).show();
@@ -52,7 +52,7 @@ public class Registration extends AppCompatActivity {
                     Boolean chkuser = db.checkUsername(u);
                     if (!chkuser)
                     {
-                        Boolean insert = db.insertData(u,p,f,l,e,a,cn);
+                        Boolean insert = db.insertData(u, p, f, l, e, a, cn);
                         if (insert==true)
                         {
                             Toast.makeText(Registration.this, "Registration successful.", Toast.LENGTH_LONG).show();
