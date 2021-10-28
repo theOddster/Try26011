@@ -47,10 +47,10 @@
             android:backgroundTint="@color/Pink1"
             android:fontFamily="@font/allerta"
             android:hint="Username"
+            android:minHeight="48dp"
             android:textAlignment="center"
             android:textColor="#F4F4F4"
-            android:textColorHint="@color/white"
-            />
+            android:textColorHint="@color/white" />
 
         <EditText
             android:id="@+id/passwordL"
@@ -59,6 +59,7 @@
             android:backgroundTint="@color/Pink1"
             android:fontFamily="@font/allerta"
             android:hint="Password"
+            android:minHeight="48dp"
             android:textAlignment="center"
             android:textColor="#F4F4F4"
             android:textColorHint="@color/white" />
