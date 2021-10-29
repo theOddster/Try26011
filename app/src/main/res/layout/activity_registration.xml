@@ -158,12 +158,15 @@
                 android:id="@+id/register"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:backgroundTint="#FC3EAA"
                 android:fontFamily="@font/allerta"
+                android:backgroundTint="#FC3EAA"
                 android:text="Signup"
                 android:textAllCaps="false"
                 android:textColor="#FFFFFF"
                 android:textSize="20sp" />
+
         </LinearLayout>
+
     </ScrollView>
+
 </LinearLayout>
