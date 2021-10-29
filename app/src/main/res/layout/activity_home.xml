@@ -23,6 +23,7 @@
                 android:layout_height="50dp"
                 android:scaleType="fitCenter"
                 android:background="@color/Grey"
+                android:adjustViewBounds="true"
                 app:srcCompat="@drawable/menu_bar" />
 
             <ImageView
@@ -38,6 +39,7 @@
                 android:layout_height="80dp"
                 android:scaleType="fitCenter"
                 android:layout_marginLeft="80dp"
+                android:adjustViewBounds="true"
                 app:srcCompat="@drawable/profile" />
 
         </LinearLayout>
