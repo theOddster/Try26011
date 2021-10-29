@@ -17,14 +17,13 @@
             android:layout_height="125dp"
             android:orientation="horizontal">
 
-            <ImageButton
+            <Button
                 android:id="@+id/imageButton"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:scaleType="fitCenter"
-                android:background="@color/Grey"
-                android:adjustViewBounds="true"
-                app:srcCompat="@drawable/menu_bar" />
+                android:background="@drawable/my_menu_selector"
+                android:adjustViewBounds="true"/>
 
             <ImageView
                 android:id="@+id/imageView"
@@ -39,8 +38,8 @@
                 android:layout_height="80dp"
                 android:scaleType="fitCenter"
                 android:layout_marginLeft="80dp"
-                android:adjustViewBounds="true"
-                app:srcCompat="@drawable/profile" />
+                android:background="@drawable/my_profile_selector"
+                android:adjustViewBounds="true" />
 
         </LinearLayout>
 
@@ -73,7 +72,6 @@
                     android:orientation="vertical">
 
                 </LinearLayout>
-
 
             </LinearLayout>
 
