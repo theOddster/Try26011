@@ -160,7 +160,7 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/allerta"
                 android:backgroundTint="#FC3EAA"
-                android:text="Signup"
+                android:text="Register"
                 android:textAllCaps="false"
                 android:textColor="#FFFFFF"
                 android:textSize="20sp" />
