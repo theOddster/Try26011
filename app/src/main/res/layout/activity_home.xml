@@ -35,7 +35,7 @@
                 android:layout_marginLeft="90dp"
                 app:srcCompat="@drawable/logo_penk_black" />
 
-            <ImageButton
+            <Button
                 android:id="@+id/imageButton2"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
@@ -67,54 +67,67 @@
                         android:layout_height="wrap_content"
                         android:orientation="horizontal">
 
-                        <ImageView
+                        <Button
                             android:id="@+id/imageView2"
                             android:layout_width="150dp"
                             android:layout_height="150dp"
-                            app:srcCompat="@drawable/ear1" />
+                            android:background="@drawable/featured_ear_selector"
+                            android:scaleType="fitCenter"
+                            tools:ignore="SpeakableTextPresentCheck" />
 
-                        <ImageView
+                        <Button
                             android:id="@+id/imageView3"
                             android:layout_width="150dp"
                             android:layout_height="150dp"
-                            app:srcCompat="@drawable/headset1" />
+                            android:background="@drawable/featured_headset_selector"
+                            android:scaleType="fitCenter"
+                            tools:ignore="SpeakableTextPresentCheck" />
 
-                        <ImageView
+                        <Button
                             android:id="@+id/imageView5"
                             android:layout_width="150dp"
                             android:layout_height="150dp"
-                            app:srcCompat="@drawable/mic1" />
+                            android:background="@drawable/featured_keyboard_selector"
+                            android:scaleType="fitCenter"
+                            tools:ignore="SpeakableTextPresentCheck" />
 
-                        <ImageView
+                        <Button
                             android:id="@+id/imageView4"
                             android:layout_width="150dp"
                             android:layout_height="150dp"
-                            app:srcCompat="@drawable/keeb1" />
+                            android:scaleType="fitCenter"
+                            android:background="@drawable/featured_microphone_selector" />
 
-                        <ImageView
+                        <Button
                             android:id="@+id/imageView6"
                             android:layout_width="150dp"
                             android:layout_height="150dp"
-                            app:srcCompat="@drawable/mouse1" />
+                            android:scaleType="fitCenter"
+                            android:background="@drawable/featured_mouse_selector" />
 
-                        <ImageView
+                        <Button
                             android:id="@+id/imageView7"
                             android:layout_width="150dp"
                             android:layout_height="150dp"
-                            app:srcCompat="@drawable/mpad1" />
+                            android:scaleType="fitCenter"
+                            android:background="@drawable/featured_mpad_selector" />
 
-                        <ImageView
+                        <Button
                             android:id="@+id/imageView8"
                             android:layout_width="150dp"
                             android:layout_height="150dp"
-                            app:srcCompat="@drawable/stand1" />
+                            android:scaleType="fitCenter"
+                            android:background="@drawable/featured_stand_selector" />
 
                     </LinearLayout>
 
                 </HorizontalScrollView>
+
                 <HorizontalScrollView
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent">
+                    android:layout_height="match_parent"
+                    tools:ignore="SpeakableTextPresentCheck">
+
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"

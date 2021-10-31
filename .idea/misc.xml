@@ -4,7 +4,14 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/Jeric/Try260112/app/src/main/res/drawable-v24/my_profile_selector.xml" value="0.2265625" />
+        <entry key="..\:/Users/Jeric/Try260112/app/src/main/res/drawable/featured_ear_on_ear_on.xml" value="0.18461538461538463" />
         <entry key="..\:/Users/Jeric/Try260112/app/src/main/res/drawable/featured_ear_selector.xml" value="0.31837606837606836" />
+        <entry key="..\:/Users/Jeric/Try260112/app/src/main/res/drawable/featured_headset_selector.xml" value="0.18461538461538463" />
+        <entry key="..\:/Users/Jeric/Try260112/app/src/main/res/drawable/featured_keayboard_selector.xml" value="0.18461538461538463" />
+        <entry key="..\:/Users/Jeric/Try260112/app/src/main/res/drawable/featured_microphone_selector.xml" value="0.18461538461538463" />
+        <entry key="..\:/Users/Jeric/Try260112/app/src/main/res/drawable/featured_mouse_selector.xml" value="0.18461538461538463" />
+        <entry key="..\:/Users/Jeric/Try260112/app/src/main/res/drawable/featured_mpad_selector.xml" value="0.18461538461538463" />
+        <entry key="..\:/Users/Jeric/Try260112/app/src/main/res/drawable/featured_stand_selector.xml" value="0.18461538461538463" />
         <entry key="..\:/Users/Jeric/Try260112/app/src/main/res/drawable/ic_launcher_background.xml" value="0.31837606837606836" />
         <entry key="..\:/Users/Jeric/Try260112/app/src/main/res/drawable/my_custom_selector.xml" value="0.3880208333333333" />
         <entry key="..\:/Users/Jeric/Try260112/app/src/main/res/drawable/my_menu_selector.xml" value="0.31837606837606836" />
