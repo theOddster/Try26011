@@ -59,6 +59,7 @@
             android:backgroundTint="@color/Pink1"
             android:fontFamily="@font/allerta"
             android:hint="Password"
+            android:autofillHints="password"
             android:minHeight="48dp"
             android:textAlignment="center"
             android:textColor="#F4F4F4"

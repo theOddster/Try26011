@@ -110,7 +110,7 @@
                             android:layout_width="150dp"
                             android:layout_height="150dp"
                             android:scaleType="fitCenter"
-                            android:background="@drawable/featured_stand_selector" />
+                            android:background="@drawable/featured_mpad_selector" />
 
                         <Button
                             android:id="@+id/imageView8"
