@@ -132,7 +132,7 @@
                             android:layout_height="wrap_content"
                             android:layout_below="@id/featured1"
                             android:fontFamily="@font/allan"
-                            android:text="EAR-PEICE"
+                            android:text="EARPHONES"
                             android:textAlignment="center"
                             android:textColor="@color/LightPink"
                             android:textSize="20sp" />

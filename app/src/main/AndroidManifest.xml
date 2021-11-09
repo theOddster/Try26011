@@ -11,7 +11,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
         <activity
+            android:name=".confirmationReceipt"
+            android:exported="true" />
+        <activity
             android:name=".Home"
+            android:exported="true" />
+        <activity
+            android:name=".checkout"
             android:exported="true" />
         <activity
             android:name=".Login"
@@ -24,8 +30,7 @@
         </activity>
         <activity
             android:name=".Registration"
-            android:exported="true">
-        </activity>
+            android:exported="true" />
 
         <meta-data
             android:name="preloaded_fonts"
