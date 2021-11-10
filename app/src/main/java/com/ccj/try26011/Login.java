@@ -13,7 +13,7 @@ public class Login extends AppCompatActivity {
 
     EditText username, password;
     Button bLogin, bRegister;
-    DBHelper db = new DBHelper(this);
+    DBUser db = new DBUser(this);
 
 
     @Override

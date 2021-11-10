@@ -14,7 +14,7 @@
             android:name=".UserProfile"
             android:exported="false" />
         <activity
-            android:name=".confirmationReceipt"
+            android:name=".Receipt"
             android:exported="true" />
         <activity
             android:name=".Home"

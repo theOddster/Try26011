@@ -7,11 +7,11 @@ import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 
 
-public class DBHelper extends SQLiteOpenHelper {
+public class DBUser extends SQLiteOpenHelper {
 
     public static final String DBname = "userAccounts.db";
 
-    public DBHelper(Context context)
+    public DBUser(Context context)
     {
         super(context, "userAccounts.db", null, 1);
     }

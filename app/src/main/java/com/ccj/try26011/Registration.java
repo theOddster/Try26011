@@ -12,7 +12,7 @@ import android.widget.Toast;
 public class Registration extends AppCompatActivity {
     EditText username,password,confirmpass,firstName,lastName,email,contactNumber,Address;
     Button bRegister;
-    DBHelper db = new DBHelper(this);
+    DBUser db = new DBUser(this);
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
